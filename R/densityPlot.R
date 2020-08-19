@@ -117,7 +117,7 @@ function(object, obs, training, add=TRUE, main="Posterior density", log="", xlim
       
     }
 
-  return(list(priorDensity, postDensity))
+  return(list(resp, weights=weights.std[,i]))
 
 }
 
