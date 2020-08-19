@@ -117,6 +117,8 @@ function(object, obs, training, add=TRUE, main="Posterior density", log="", xlim
       
     }
 
+  return(list(priorDensity, postDensity))
+
 }
 
 densityPlot <-
